@@ -1,0 +1,30 @@
+server:
+  port: 9091
+
+spring:
+  h2:
+    console:
+      enabled: true
+  datasource:
+    url: jdbc:h2:mem:testdb
+
+
+
+mailjet:
+  api-key: 9de97993ad58bfc15b90741b89d30bb4
+  secret-key: c6fc93d1f8160ae78d1461210663310e
+
+zero-bounce:
+  api-key: b0243d8eafdf4eca829e08d035d034d9
+  validation-api-url: https://api.zerobounce.net/v2/validate?api_key=
+
+
+email:
+  new-emp-template:
+    body: Hello and welcome!
+    subject: Welcome
+    sender:
+      name: Yasmine
+      mail: yasminegamal.yg@gmail.com
+
+
